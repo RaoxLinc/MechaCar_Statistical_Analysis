@@ -10,6 +10,7 @@ In this challenge, we help Jeremy and the data analytics team do the following:
 -  Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
 
 ## Linear Regression to Predict MPG
+
 ![Summarylm](Resources/images/Summarylm.PNG)
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -23,25 +24,26 @@ The p-Value for this model is 5.35e-11 which is much smaller than the assumed si
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The R-Squared value is 0.7149, which means that 71.5% of all mpg predictions will be determined by this model. The regression model does predict mpg of MechaCar prototypes effectively. 
 
-<<<<<<< HEAD
-=======
+
 ## Summary Statistics on Suspension Coils
->>>>>>> 257046f4fb1eb0c69a05003eb92a018e3f605c89
+
 ![TotalSumPSI](Resources/images/TotalSumPSI.PNG)
 ![Manlot](Resources/images/Manlot.PNG)
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-<<<<<<< HEAD
 In total the meet this design Varience PSI is 62.29 PSI which is well within the 100 PSI. While looking at the 3 lots, lot 1 and 2 both are under the PSI, while when looking at Lot 3 the Varience is 170 PSI. 
-=======
+
 In total the meet this design Varience PSI is 62.29 PSI which is well within the 100 PSI. While looking at the 3 lots, lot 1 and 2 both are under the PSI, while when looking at Lot 3 the Varience is 170 PSI. 
 
 ## T-Tests on Suspension Coils
-![sumttest](Resources/images/sumttest)
+
+![sumttest](Resources/images/sumttest.PNG)
+
 The T-test results over all manufacturing lots is 95% confidence interval, where the mean of the sample is 1498.78 with a p-Value of 0.06 which is higher than the common significance of 0.05. There is not enough evidence to support rejecting the null hypothesis. 
 
-![lotttest](Resources/images/lotttest)
+![lotttest](Resources/images/lotttest.PNG)
+
 Lot 1 has a mean sample of 1500, with a p-value of 1. We cannot reject the null hypothesis since there is not statistical difference between the observed sample mean and the presumed population mean of 1500. 
 
 Lot 2 has a mean sample of 1500.2 with a p-value of 0.6072. The null hypothesis cannot be rejected.
@@ -66,4 +68,3 @@ I would use the T-Test to compare the dataset.
 What data is needed to run the statistical test?
 the p-value would be set to 0.05 and the Datat that results in the prediction of a p-value smaller than 0.05 would prove predictive evidence that the null hypothesis could be rejected. 
 
->>>>>>> 257046f4fb1eb0c69a05003eb92a018e3f605c89
