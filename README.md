@@ -38,10 +38,12 @@ In total the meet this design Varience PSI is 62.29 PSI which is well within the
 
 ## T-Tests on Suspension Coils
 
-![sumttest](Resources/images/sumttest)
+![sumttest](Resources/images/sumttest.PNG)
+
 The T-test results over all manufacturing lots is 95% confidence interval, where the mean of the sample is 1498.78 with a p-Value of 0.06 which is higher than the common significance of 0.05. There is not enough evidence to support rejecting the null hypothesis. 
 
-![lotttest](Resources/images/lotttest)
+![lotttest](Resources/images/lotttest.PNG)
+
 Lot 1 has a mean sample of 1500, with a p-value of 1. We cannot reject the null hypothesis since there is not statistical difference between the observed sample mean and the presumed population mean of 1500. 
 
 Lot 2 has a mean sample of 1500.2 with a p-value of 0.6072. The null hypothesis cannot be rejected.
